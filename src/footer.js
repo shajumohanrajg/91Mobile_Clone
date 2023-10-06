@@ -3,11 +3,11 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { makeStyles } from '@mui/styles';
 import React from 'react';
-import logo from './assets/logo.webp';
+import logo from './assets/techconnectlogo1.jpg';
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor: 'black',
+    backgroundColor: '#333333',
     color:'white',
     maxWidth: 'lg', //
     
@@ -16,6 +16,14 @@ const useStyles = makeStyles((theme) => ({
   },
   footerText: {
     color: '#fff', // Change the color value here
+  },
+  logo: {
+    marginRight: theme.spacing(2),
+    //width: "170px",
+    // maxWidth: '100%',
+    // maxHeight: '100%',
+    aspectRatio: " auto 132 / 30",
+    height: "40px",
   },
 }));
 
@@ -107,7 +115,7 @@ const Footer = () => {
            
           </Typography>
           <Typography variant="body2" align="center" >
-          © 91digital Web Private Limited. All Rights Reserved.
+          © Tech Connect Web Private Limited. All Rights Reserved.
           </Typography>
         </Grid>
       </Grid>

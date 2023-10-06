@@ -226,6 +226,7 @@ const ProductBrowser = () => {
                     max={10000}
                     step={10}
                     valueLabelDisplay="auto"
+                    //sx={{color}}
                   />
                   {/* <div>
                     <TextField

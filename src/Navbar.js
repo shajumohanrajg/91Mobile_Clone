@@ -17,7 +17,7 @@ import {
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React, { useState } from 'react';
-import logo from "./assets/logo.webp";
+import logo from "./assets/techconnectlogo1.jpg";
 
 //const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -58,9 +58,11 @@ toolbar: {
   },
   logo: {
     marginRight: theme.spacing(2),
-    width: "132px",
+    //width: "170px",
+    // maxWidth: '100%',
+    // maxHeight: '100%',
     aspectRatio: " auto 132 / 30",
-    height: "30px",
+    height: "40px",
   },
 //   searchField: {
 //     width: '200px', // Adjust the width as needed
@@ -139,7 +141,7 @@ const NavBar = () => {
       <AppBar
         position="fixed"
         className={classes.appBar}
-        sx={{ backgroundColor: "#262626" }}
+        sx={{ backgroundColor: "#333333" }}
       >
         <Container maxWidth="md">
           <Toolbar className={classes.toolbar}>
@@ -237,7 +239,7 @@ const NavBar = () => {
                 variant="contained"
                 color="primary"
                 href="/"
-                className={classes.loginButton} sx={{textTransform:'capitalize',backgroundColor:'#ff5500',color:'white'}}
+                className={classes.loginButton} sx={{textTransform:'capitalize',backgroundColor:'#7fc313',color:'white'}}
               >
                 Home
               </Button>
@@ -248,9 +250,9 @@ const NavBar = () => {
                 variant="contained"
                 color="primary"
                 href="/latestmobiles"
-                className={classes.loginButton} sx={{textTransform:'capitalize',backgroundColor:'#ff5500',color:'white'}}
+                className={classes.loginButton} sx={{textTransform:'capitalize',backgroundColor:'#7fc313',color:'white'}}
               >
-                Latest Mobiles
+                Latest
               </Button>
             )}
           </Toolbar>

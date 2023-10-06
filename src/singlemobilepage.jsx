@@ -1,12 +1,9 @@
-
-
-import Mobile from './mobile';
+import Mobile from "./mobile";
 
 function Singlemobile() {
   return (
     <>
-     <Mobile />
-      
+      <Mobile />
     </>
   );
 }

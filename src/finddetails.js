@@ -84,7 +84,7 @@ const MyGrid = () => {
         min={100}
         max={65000}
         valueLabelDisplay="auto"
-        sx={{ color: '#eb5733' }}
+        sx={{ color: '#7fc313' }}
       />
     </Box>
     <br></br>
@@ -110,7 +110,7 @@ const MyGrid = () => {
         color="primary"
         fullWidth
         //onClick={handleButtonClick}
-        sx={{textTransform:'capitalize',bgcolor:'#ff5a00'}}
+        sx={{textTransform:'capitalize',bgcolor:'#7fc313'}}
       >
          Find Mobiles
       </Button>
